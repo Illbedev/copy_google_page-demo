@@ -1,0 +1,145 @@
+html {
+    background-image: url(/image/245147.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* top  */
+.top {
+    display: inherit;
+    padding-top: 1rem;
+    float: right;
+    user-select: none;
+
+
+}
+
+.link_contain {
+    float: left;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 13px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.apps_button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    border: none;
+    margin-top: -9px;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.img_1 {
+    margin-top: 2px;
+}
+
+.apps_button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+
+
+
+}
+
+.avt {
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    border: none;
+    float: left;
+    margin-right: 5px;
+
+
+
+}
+
+.avt:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.avt_img {
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+
+/* search */
+.main {
+
+    float: center;
+    text-align: center;
+    padding-top: 12rem;
+    user-select: none;
+}
+
+.logo_img {
+    opacity: 85%;
+    user-select: none;
+}
+
+.search_bar {
+    margin-top: 2rem;
+    width: 500px;
+    height: 40px;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 3 2 100px black;
+    outline: none;
+    background-image: url(/image/search_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: 25px;
+    padding-left: 3.5rem;
+    background-position: 1rem;
+    background-repeat: no-repeat;
+    font-size: medium;
+    font-weight: 100;
+    opacity: 90%;
+    user-select: none;
+
+}
+
+
+
+
+
+
+/* footer */
+.footer {
+    float: right;
+}
+
+.edit_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.edit_button:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    margin-top: 1.5px;
+}
